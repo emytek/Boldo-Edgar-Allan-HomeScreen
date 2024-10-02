@@ -1,0 +1,47 @@
+@font-face {
+    font-family: swap;
+    font-style: normal;
+    src: url("/public/fonts/ManropeBold.ttf");
+    font-family: "Manrope";
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: swap;
+    font-style: normal;
+    src: url("/public/fonts/WorkSansBold.ttf");
+    font-family: "Work Sans";
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: swap;
+    font-style: normal;
+    src: url("/public/fonts/OpenSansRegular.ttf");
+    font-family: "Open Sans";
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: swap;
+    font-style: normal;
+    src: url("/public/fonts/ManropeRegular.ttf");
+    font-family: "Manrope";
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: swap;
+    font-style: normal;
+    src: url("/public/fonts/OpenSansBold.ttf");
+    font-family: "Open Sans";
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: swap;
+    font-style: normal;
+    src: url("/public/fonts/OpenSansSemiBold.ttf");
+    font-family: "Open Sans";
+    font-weight: 600;
+}
