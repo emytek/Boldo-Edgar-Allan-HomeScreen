@@ -18,19 +18,42 @@ export default {
           "900_00": "var(--blue_gray_900_00)",
           "900_1b": "var(--blue_gray_900_1b)",
         },
+        gray: {
+          400: "var(--gray_400)", 600: "var(--gray_600)",
+        },
+        green: {
+          800: "var(--green_800)", 
+          a200: "var(--green_a200)",
+          a200_01: "var(--green_a200_01)",
+        },
+        indigo: {
+          200: "var(--indigo_200)",
+        },
+        light_blue: {
+          a400: "var(--light_blue_a400)",
+        },
+        orange: {
+          a700: "var(--orange_a700)",
+        },
+        white: {
+          a700: "var(--white_a700)",
+          a700_2d: "var(--white_a700_2d)",
+        },
+      },
+      boxShadow: {
+        xs: "0 4px 32px 0 #00000014",
+        sm: "0 4px 32px 0 #0000001e",
+        md: "0 12px 32px 0 #0000001e",
       },
       fontFamily: {
-        sans: ["Inter", "Helvetica Neue", "Arial", "sans-serif"],
+        opensans: "Open Sans",
+        manrope: "Manrope",
       },
-      spacing: {
-        12: "3rem",
-        16: "4rem",
-        24: "6rem",
-        32: "8rem",
-        48: "12rem",
+      backgroundImage: {
+        gradient: "linear-gradient(90deg, #0a2640, #0a26401b, #0a264000, #0a2640)",
       },
     },
   },
-  plugins: [],
+  plugins: [require("@tailwind/forms")],
 }
 
