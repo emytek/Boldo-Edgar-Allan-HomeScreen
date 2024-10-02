@@ -54,6 +54,6 @@ export default {
       },
     },
   },
-  plugins: [require("@tailwind/forms")],
+  plugins: [],
 }
 
